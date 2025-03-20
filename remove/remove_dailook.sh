@@ -1,3 +1,6 @@
+#公用函数
+source $GITHUB_WORKSPACE/Scripts/functions.sh
+
 rm -rf feeds/packages/net/homeproxy
 rm -rf feeds/luci/applications/luci-app-homeproxy
 rm -rf feeds/kenzo/homeproxy
@@ -19,3 +22,6 @@ rm -rf feeds/packages/lang/golang
 git clone https://github.com/sbwml/packages_lang_golang feeds/packages/lang/golang
 #####################################################
 rm -rf package/network/utils/fullconenat-nft
+rm -rf package/luci-app-turboacc
+merge_package master https://github.com/coolsnowwolf/luci package applications/luci-app-turboacc
+#####################################################
