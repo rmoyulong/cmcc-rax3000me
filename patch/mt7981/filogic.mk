@@ -348,7 +348,7 @@ TARGET_DEVICES += cmcc_rax3000m-nand
 define Device/cmcc_rax3000me
   DEVICE_VENDOR := CMCC
   DEVICE_MODEL := RAX3000Me
-  DEVICE_DTS := mt7981-cmcc-rax3000me
+  DEVICE_DTS := mt7981b-cmcc-rax3000me
   DEVICE_DTS_DIR := ../dts
   DEVICE_PACKAGES := kmod-mt7981-firmware mt7981-wo-firmware kmod-usb3
   SUPPORTED_DEVICES := cmcc,rax3000me
