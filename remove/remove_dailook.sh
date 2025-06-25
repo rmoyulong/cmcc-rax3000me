@@ -14,7 +14,8 @@ rm -rf feeds/packages/net/aria2
 rm -rf feeds/packages/net/ariang 
 rm -rf feeds/luci/luci-app-aria2
 ###############################
-rm -rf feeds/packages/lang/rust
+#rm -rf feeds/packages/lang/rust
+rm -rf  package/rust
 rm -rf  package/openwrt-passwall/shadowsocks-rust
 rm -rf  package/openwrt-passwall/hysteria
 ####################################################
