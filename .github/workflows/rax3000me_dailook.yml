@@ -56,7 +56,7 @@ jobs:
       #默认地址
       CORE_IP: ${{ github.event.inputs.OP_IP }}
       #默认源码
-      CORE_URL: https://github.com/dailook/immortalwrt-mt798x-23.05.git
+      CORE_URL: https://github.com/dailook/immortalwrt-mt798x-237
       #源码版本
       CORE_BRANCH: openwrt-23.05
       CORE_tag_name: dailook精英版
