@@ -1,5 +1,5 @@
 ### 首先感谢两位大佬 [Daniel-Hwang](https://github.com/Daniel-Hwang/) 和 [QiYueYiya](https://github.com/QiYueYiya/) ，本篇教程根据他们的教程修改
-
+[![build](https://img.shields.io/github/actions/workflow/status/rmoyulong/cmcc-rax3000me/rax3000me-lede-6.6.yml)](https://github.com/rmoyulong/cmcc-rax3000me/actions/workflows/rax3000me-lede-6.6.yml) [![downloads](https://img.shields.io/github/downloads/rmoyulong/cmcc-rax3000me/total)](https://github.com/rmoyulong/cmcc-rax3000me/releases) [![downloads@latest](https://img.shields.io/github/downloads/rmoyulong/cmcc-rax3000me/latest/total)](https://github.com/rmoyulong/cmcc-rax3000me/releases/latest)<br>
 ---
 
 原链接：
