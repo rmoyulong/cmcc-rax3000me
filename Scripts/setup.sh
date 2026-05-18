@@ -14,6 +14,7 @@ merge_package master https://github.com/kenzok8/small/ package sing-box
 merge_package master https://github.com/kenzok8/small/ package luci-app-ssr-plus
 
 rm -rf package/helloworld/xray-core
+rm -rf package/helloworld/geoview
 merge_package master https://github.com/kenzok8/small/ package xray-core
 merge_package master https://github.com/kenzok8/small/ package geoview
 
