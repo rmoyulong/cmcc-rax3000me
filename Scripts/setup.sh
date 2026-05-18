@@ -7,14 +7,12 @@ merge_package master https://github.com/coolsnowwolf/packages package lang/rust
 rm -rf package/helloworld/v2ray-geodata
 git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 
-
 merge_package master https://github.com/kenzok8/small/ package shadowsocks-rust
 merge_package master https://github.com/kenzok8/small/ package shadowsocks-libev
 merge_package master https://github.com/kenzok8/small/ package shadowsocksr-libev
 merge_package master https://github.com/kenzok8/small/ package sing-box
 merge_package master https://github.com/kenzok8/small/ package luci-app-ssr-plus
 merge_package master https://github.com/kenzok8/small/ package xray-core
-merge_package master https://github.com/kenzok8/small/ package geoview
 
 rm -rf feeds/luci/applications/luci-app-homeproxy
 git clone https://github.com/VIKINGYFY/homeproxy package/luci-app-homeproxy
