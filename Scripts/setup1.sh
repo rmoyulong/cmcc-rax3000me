@@ -29,9 +29,7 @@ merge_package main https://github.com/VIKINGYFY/packages  feeds/packages/net sin
 
 rm -rf ./tools/erofs-utils
 cd ./tools
-git clone https://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs-utils.git
-cd erofs-utils
-git checkout 81169bf3cfd26b8f2b3aa3b20da23971168a90a9
+git clone https://github.com/erofs/erofs-utils
 
 cd package
 $GITHUB_WORKSPACE/Scripts/Packages.sh
