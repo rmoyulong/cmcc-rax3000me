@@ -1,6 +1,10 @@
 #公用函数
 source $GITHUB_WORKSPACE/Scripts/functions.sh
 
+rm -rf ./tools/erofs-utils
+make tools/erofs-utils/clean
+make tools/erofs-utils/compile V=s -j1
+
 ./scripts/feeds update -a
 ./scripts/feeds install -a
 
@@ -26,10 +30,6 @@ git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 
 rm -rf feeds/packages/net/sing-box
 merge_package main https://github.com/VIKINGYFY/packages  feeds/packages/net sing-box
-
-rm -rf ./tools/erofs-utils
-cd ./tools
-git clone https://github.com/erofs/erofs-utils
 
 cd package
 $GITHUB_WORKSPACE/Scripts/Packages.sh
