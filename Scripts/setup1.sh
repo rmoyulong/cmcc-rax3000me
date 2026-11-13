@@ -2,7 +2,11 @@
 source $GITHUB_WORKSPACE/Scripts/functions.sh
 
 rm -rf ./tools/erofs-utils
-make tools/erofs-utils/clean
+cd ./tools
+git clone https://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs-utils.git erofs-utils
+cd erofs-utils
+git checkout 51b5939b5f783221310d25146e6a2019ba8129b6
+cd ..
 make tools/erofs-utils/compile V=s -j1
 
 ./scripts/feeds update -a
